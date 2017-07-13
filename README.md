@@ -1,2 +1,2 @@
-# react_router_master
+# React Router Master
 Mastering router in React JS
