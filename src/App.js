@@ -19,7 +19,7 @@ class App extends Component {
               </div>
 
               <div className="input-group col">
-                <input type="text" className="form-control" placeholder="Nunca dejes de buscar..." />
+                <input type="text" className="form-control heavy-grey" placeholder="Nunca dejes de buscar..." />
                 <span className="input-group-btn">
                   <button className="btn btn-light-grey" type="button">
                     <img src={ic_Search} alt="logo" />
@@ -31,8 +31,19 @@ class App extends Component {
           </div>
           
         </nav>
-          
 
+        <div className="container">
+
+           <ul className="breadcrumb">
+            <li>Electrônica Áudio e Vídeo</li>
+            <li>iPod</li>
+            <li>Rproductores</li>
+            <li>iPod Touch</li>
+            <li>32 GB</li>
+          </ul>
+
+        </div>
+        
       </div>
     );
   }
